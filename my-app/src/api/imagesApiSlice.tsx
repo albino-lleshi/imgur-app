@@ -5,7 +5,7 @@ export const apiSlice = createApi({
   baseQuery: fetchBaseQuery({
     baseUrl: "https://api.imgur.com/3",
     prepareHeaders: (headers) => {
-      headers.set("Authorization", "Client-ID ee9d3816e898020");
+      headers.set("Authorization", "Client-ID 0722695c406fa7d");
       return headers;
     },
   }),

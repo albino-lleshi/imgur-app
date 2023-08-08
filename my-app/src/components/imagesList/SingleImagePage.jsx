@@ -9,6 +9,8 @@ export const SingleImagePage = () => {
   const { data } = useFetchImagesQuery(
     useSelector((state) => state.gallery.filters)
   );
+  console.log(data);
+
   const nestedArray = Object.values(data?.data || {}).map((a) => a);
   const image = nestedArray.find((image) => image.id === imageId.imageId);
 

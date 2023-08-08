@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { ImagesList } from "./features/imagesList/ImagesList";
-import { SingleImagePage } from "./features/imagesList/SingleImagePage";
+import { ImagesList } from "./components/imagesList/ImagesList";
+import { SingleImagePage } from "./components/imagesList/SingleImagePage";
 import { Provider } from "react-redux";
 import { store } from "./app/store";
-import Navbar from "./features/navBar/NavBar";
+import Navbar from "./components/navBar/NavBar";
 
 function App() {
   return (
